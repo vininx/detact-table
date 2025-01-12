@@ -1,0 +1,44 @@
+getgenv().Detact = {
+    ['Start Up'] = {
+        ['Intro'] = true,
+    },
+    Aimbot = {
+        ['Enabled'] = true,
+        ['Key'] = "C",
+        ['Prediction'] = 0.18,
+        ['Smoothness'] = 0.89,
+        ['JumpOffset'] = 7,
+        ['FallOffset'] = 0,
+        ['HitPart'] = "Head",
+    },
+    Fov = {
+        ['Enabled'] = true,
+        ['Radius'] = 500,
+    },
+    Silent = {
+        ['Enabled'] = true,
+        ['FOV'] = 150,
+        ['Prediction'] = 0.05,
+        ['HitPart'] = "Head",
+        ['Mode'] = "Index",
+    },
+    TargetAim = {
+        ['Enabled'] = true,
+        ['Mode'] = "Index",
+        ['TargetPart'] = "Head",
+        ['Prediction'] = 0.1,
+    },
+    Esp = {
+        ['Enabled'] = true,
+        ['Distance'] = true,
+        ['Name'] = true,
+        ['Tool'] = true,
+        ['HealthBar'] = true,
+        ['Skeleton'] = false,
+        ['Tracer'] = true,
+    },
+    Checks = {
+        ['WallCheck'] = false,
+        ['TeamCheck'] = false,
+    }
+}

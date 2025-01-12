@@ -1,3 +1,5 @@
+script_key="YourKeyHere";
+
 getgenv().Detact = {
     ['Start Up'] = {
         ['Intro'] = true,
@@ -42,3 +44,5 @@ getgenv().Detact = {
         ['TeamCheck'] = false,
     }
 }
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/60008be1bf117911aa795e4f8d27a786.lua"))()```

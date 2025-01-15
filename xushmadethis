@@ -1,6 +1,6 @@
 script_key="YourKeyHere";
 -- no Ko check in table its auto on
-getgenv().Detact = {
+getgenv().Debug = {
     ['Start Up'] = {
         ['Intro'] = true,
     },
@@ -42,7 +42,13 @@ getgenv().Detact = {
     Checks = {
         ['WallCheck'] = false,
         ['TeamCheck'] = false,
+    },
+    Textures = {
+        ['Enabled'] = true,
+        ['Texture'] = Enum.Material.Brick, -- Brick, Slate, Concrete, CorrodedMetal, DiamondPlate, Foil, Grass, Ice, Marble, Granite, Metal, Neon, Plastic, Sand, Fabric, SmoothPlastic, Wood, WoodPlanks, Glass, ForceField,
+        ['Ignore'] = true,
+        ['Color'] = Color3.fromRGB(255, 255, 255),
+        ['IgnorePlayers'] = {}
     }
 }
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/60008be1bf117911aa795e4f8d27a786.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b217646273206d5ba1984bbb3931aa1.lua"))()

@@ -51,4 +51,4 @@ getgenv().Debug = {
         ['IgnorePlayers'] = {}
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b217646273206d5ba1984bbb3931aa1.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7f21a5c83bb86e09c00a65df137b1817.lua"))()

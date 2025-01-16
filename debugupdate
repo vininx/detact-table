@@ -9,8 +9,6 @@ getgenv().Debug = {
         ['Key'] = "C",
         ['Prediction'] = 0.18,
         ['Smoothness'] = 0.89,
-        ['JumpOffset'] = 7,
-        ['FallOffset'] = 0,
         ['HitPart'] = "Head",
     },
     Fov = {
@@ -24,14 +22,8 @@ getgenv().Debug = {
         ['HitPart'] = "Head",
         ['Mode'] = "Index",
     },
-    TargetAim = {
-        ['Enabled'] = true,
-        ['Mode'] = "Index",
-        ['TargetPart'] = "Head",
-        ['Prediction'] = 0.1,
-    },
     Esp = {
-        ['Enabled'] = true,
+        ['Enabled'] = false,
         ['Distance'] = true,
         ['Name'] = true,
         ['Tool'] = true,
@@ -42,13 +34,14 @@ getgenv().Debug = {
     Checks = {
         ['WallCheck'] = false,
         ['TeamCheck'] = false,
+        ['Resolver'] = false,
+        ['ResolverKey'] = Enum.KeyCode.G,
     },
     Textures = {
-        ['Enabled'] = true,
-        ['Texture'] = Enum.Material.Brick, -- Brick, Slate, Concrete, CorrodedMetal, DiamondPlate, Foil, Grass, Ice, Marble, Granite, Metal, Neon, Plastic, Sand, Fabric, SmoothPlastic, Wood, WoodPlanks, Glass, ForceField,
-        ['Ignore'] = true,
-        ['Color'] = Color3.fromRGB(255, 255, 255),
-        ['IgnorePlayers'] = {}
+        ['Enabled'] = false,
+        ['Texture'] = Enum.Material.Brick,
+        ['IgnorePlayers'] = true,
+        ['Color'] = Color3.fromRGB(50, 50, 50)
     }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7f21a5c83bb86e09c00a65df137b1817.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b30eef1ea486b9720e7044b0ac2d2016.lua"))()
